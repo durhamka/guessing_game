@@ -1,0 +1,100 @@
+puts "I would like to visit" + vacation_spot
+vacation_spots.each do |vacation_spot|
+puts "I would like to visit " + vacation_spot
+rails_klass = ["Kinsey", "Emma", "Lauren", "Morgan"]
+rails_klass.each do |rails_klass|
+puts "My name is " == "Kinsey"
+p person
+p person == "Kinsey"
+p "My Name is " if person == "Kinsey" 
+rails_klass.each do |person|
+p "My Name is #{person} " if person == "Kinsey"
+person = "Kinsey"
+"hi im " + person
+"hi im #{person}"
+'this is a string with single quotes'
+'this is a string with single quotes #{person}'
+"this is a string with single quotes #{person}"
+load 'my_program.rb'
+second_time=Sample.new
+second_time.hello
+hello.rb
+ruby hello.rb Alice
+frank.make_toast
+frank.make_milkshake
+jeeves.open_front_door
+frank.make_toast('not burnt')
+frank.make_toast('burnt')
+frank.make_milkshake('Oreo')
+jeeves = Butler.new
+jeeves.open_door('back')
+frank.make_toast('burnt').make_eggs(5).make_milkshake('chocolate')
+load 'personal_chef.rb'
+frank = PersonalChef.new
+frank.make_toast('burnt').make_pancakes(5).make_milkshake('chocolate')
+greeting = "Hello fellow coders!"
+greeting.length
+greeting.gsub("fellow coders!","amigas!")
+today = "Saturday"
+require 'date'
+puts "Happy" + today + "!"
+puts "Happy " + today + "!"
+puts "Happy " + today + "! It is the 
+puts "Happy " + today + "! It is the " + day_of_year + " day ofthe year."
+today = Date.today.strftime("%A")
+day_of_year = Date.today.yday
+puts "Happy" + today + "! It is the " + day_of_year.to_s + " day of the year."
+puts "Happy #{today}! It is the +{day_of_year} day of the year."
+puts "Happy  #{today}! It is the +{day_of_year} day of the year."
+puts "Happy  #{today}! It is the #{day_of_year} day of the year."
+modifier = "very "
+mood = "excited"
+puts "I am #{modifier * 3 + mood} for today's class!"
+1 + 2
+require "active_support"
+1 + 1
+def code_to_write
+1+1
+irb
+3 + 3
+7 * 6
+my_variable = 5
+mkdir railsbridge
+signup
+Signup.create(email: params[:email])
+Signup.create(kinseyann505@gmail.com))
+Signup.create(kinseyann505@gmail.com)
+reload!
+Signup.create(email: "kinseyann505@gmail.com")
+Signup
+Signup.count
+Signup.pluck(:email)
+exit 
+Comment 
+response.all
+yes.all
+people.all
+People.all
+Comments.all
+Comment.all
+Yes.all
+Response.all
+Email.all
+Emails.all
+Signup.all
+Post.all
+puts "Hello wombat"
+hash = { "front => "cat"}
+hash = { "front" => "cat" }
+hash["front"]
+class Card
+end
+card = Card.new
+Card
+card1
+card.front = "Cat"
+load 'flashcards.rb'
+card.front 
+card.front = Cat
+card.front
+exit
