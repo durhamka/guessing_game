@@ -24,14 +24,13 @@ end
 describe(Deck) do
      it "should hold the cards" do
           deck = Deck.new
-          deck.cards.should == []
+          card = Card.new
+          deck.cards.should == [card]
      end
      it "can add cards to it" do
           deck = Deck.new
           card = Card.new
-          deck.add_card(card)
-         
-          deck.cards.should == [card]
+          deck.add_card(card, deck)
      end          
 end   
 
