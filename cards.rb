@@ -3,15 +3,21 @@ attr_accessor :front,:back
 end
 
 class Deck
-     def hold_card
-          @card = [card]
-     end
+attr_reader :front	
+	def initialize
+     	@cards = []
+     end 
 
-    def add_card(card, deck)
-		@card << card
-	end	 
+     def cards 
+     	@cards
+     end	
+     
+     def hold_card(card)
+        @cards << card
+     end 
 
+     def hold_cards(card1, card2)
+     	@cards << card1
+     	@cards << card2
+     end	
 end
-
-
-
