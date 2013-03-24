@@ -48,13 +48,9 @@ describe(Deck) do
 
     it "shows player the front of a random card" do
       deck = Deck.new
-      #x = deck
       card = Card.new
       card.front = 'puppy'
-      #y = card 
       deck.hold_card(card)
-      #f = hold_card 
-      #f(x,y)= 
       card = Card.new
       card.front = 'kitty'
       deck.hold_card(card)
@@ -62,7 +58,7 @@ describe(Deck) do
       card.front = 'snake'
       deck.hold_card(card)
       random_card = deck.random_card
-      ['puppy', 'kitty', 'snake'].should include random_card.front
+      ['puppy', 'kitty', 'snake'].should include (random_card.front)
     end   
 end   
 
