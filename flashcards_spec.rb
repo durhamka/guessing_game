@@ -29,7 +29,7 @@ describe(Deck) do
           deck.cards.should == [card]
      end
     
-    it "can add multiple cards" do
+    it "can add multiple cards, dude" do
         deck = Deck.new
         card1 = Card.new
         card2 = Card.new
