@@ -1,6 +1,6 @@
 number = rand(10) + 1
 
-puts "Welcome to my guessing game"
+puts "Welcome to my guessing game,mutha fucka"
 puts "-" * 20
 
 won = false 
